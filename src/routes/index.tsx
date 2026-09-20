@@ -11,7 +11,6 @@ import {
   Maximize2,
   Printer,
   Smartphone,
-  Sparkles,
   X,
 } from "lucide-react";
 
@@ -25,13 +24,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Kit Completo de Fonoaudiologia Infantil + mais de 200 materiais e atividades" },
+      { title: "Kit Completo de Fonoaudiologia Infantil + de 200 materiais e atividades" },
       {
         name: "description",
         content:
           "Além do Kit Completo de Fonoaudiologia Infantil, você recebe mais de 200 materiais e atividades em PDF. Acesse pelo celular, computador ou tablet e imprima quando precisar.",
       },
-      { property: "og:title", content: "Kit Completo de Fonoaudiologia Infantil + mais de 200 materiais e atividades" },
+      { property: "og:title", content: "Kit Completo de Fonoaudiologia Infantil + de 200 materiais e atividades" },
       {
         property: "og:description",
         content:
@@ -128,8 +127,7 @@ function Index() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <div className="hero-kicker"><Sparkles size={16} /> Kit digital completo</div>
-            <h1>Kit Completo de Fonoaudiologia Infantil<span className="h1-plus">+ <mark>mais de 200 materiais e atividades</mark></span></h1>
+            <h1>Kit Completo de Fonoaudiologia Infantil<span className="h1-plus">+ <mark>de 200 materiais e atividades</mark></span></h1>
             <p className="hero-lead">Além do kit completo, você recebe mais de 200 materiais e atividades digitais organizados para facilitar seus atendimentos e poupar horas procurando ou preparando recursos.</p>
             <div className="access-row">
               <span><Download size={17} /> Acesso digital</span>
