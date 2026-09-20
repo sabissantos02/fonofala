@@ -25,17 +25,17 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Kit Completo de Fonoaudiologia Infantil +200 Atividades" },
+      { title: "Kit Completo de Fonoaudiologia Infantil + mais de 200 materiais e atividades" },
       {
         name: "description",
         content:
-          "Kit digital com mais de 200 atividades e materiais para Fonoaudiologia Infantil. Acesse pelo celular, computador ou tablet e imprima quando precisar.",
+          "Além do Kit Completo de Fonoaudiologia Infantil, você recebe mais de 200 materiais e atividades em PDF. Acesse pelo celular, computador ou tablet e imprima quando precisar.",
       },
-      { property: "og:title", content: "Kit Completo de Fonoaudiologia Infantil +200 Atividades" },
+      { property: "og:title", content: "Kit Completo de Fonoaudiologia Infantil + mais de 200 materiais e atividades" },
       {
         property: "og:description",
         content:
-          "Kit digital com mais de 200 atividades e materiais para Fonoaudiologia Infantil. Acesse pelo celular, computador ou tablet e imprima quando precisar.",
+          "Além do Kit Completo de Fonoaudiologia Infantil, você recebe mais de 200 materiais e atividades em PDF. Acesse pelo celular, computador ou tablet e imprima quando precisar.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -126,26 +126,26 @@ function Index() {
       <div className="top-strip">Material digital em PDF · Acesso prático e imediato após confirmação da compra</div>
 
       <section className="hero">
-        <div className="hero-spark hero-spark-one" aria-hidden="true">✦</div>
-        <div className="hero-spark hero-spark-two" aria-hidden="true">✦</div>
         <div className="container hero-grid">
           <div className="hero-copy">
             <div className="hero-kicker"><Sparkles size={16} /> Kit digital completo</div>
-            <h1>Mais de <mark>200 atividades</mark> de Fonoaudiologia Infantil prontas para usar</h1>
-            <p className="hero-lead">Um kit completo de materiais digitais organizados para facilitar seus atendimentos e poupar horas procurando ou preparando atividades.</p>
+            <h1>Kit Completo de Fonoaudiologia Infantil<span className="h1-plus">+ <mark>mais de 200 materiais e atividades</mark></span></h1>
+            <p className="hero-lead">Além do kit completo, você recebe mais de 200 materiais e atividades digitais organizados para facilitar seus atendimentos e poupar horas procurando ou preparando recursos.</p>
             <div className="access-row">
               <span><Download size={17} /> Acesso digital</span>
               <span><FileText size={17} /> Arquivos em PDF</span>
             </div>
-            <div className="hero-price"><small>POR APENAS</small><strong>R$ 14,90</strong></div>
-            <PurchaseButton>QUERO ACESSAR O KIT AGORA</PurchaseButton>
-            <p className="microcopy">Material digital • Acesso pelo celular, computador ou tablet • Também pode ser impresso</p>
           </div>
           <div className="hero-visual">
             <div className="image-frame image-frame-hero">
               <img src={offerArt.url} alt="Arte do Kit Completo de Fonoaudiologia Infantil com mais de 200 materiais e atividades" fetchPriority="high" />
             </div>
             <div className="floating-note"><Check size={17} /> Pronto para consultar</div>
+          </div>
+          <div className="hero-offer">
+            <div className="hero-price"><small>POR APENAS</small><strong>R$ 14,90</strong></div>
+            <PurchaseButton className="hero-cta">QUERO ACESSAR O KIT AGORA</PurchaseButton>
+            <p className="microcopy">Material digital • Acesso pelo celular, computador ou tablet • Também pode ser impresso</p>
           </div>
         </div>
       </section>
@@ -170,7 +170,7 @@ function Index() {
           <div className="product-copy">
             <span className="eyebrow">Tudo reunido para você</span>
             <h2>Conheça o Kit Completo de Fonoaudiologia Infantil</h2>
-            <p>São mais de 200 atividades e materiais digitais organizados para você ter diferentes recursos à disposição durante seus atendimentos.</p>
+            <p>Além do kit completo, você recebe mais de 200 materiais e atividades digitais organizados para ter diferentes recursos à disposição durante seus atendimentos.</p>
             <ul className="check-list">
               <li><Check /> Atividades prontas e organizadas</li>
               <li><Check /> Cartões e recursos de apoio</li>
